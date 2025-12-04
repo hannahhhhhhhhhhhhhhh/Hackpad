@@ -2,12 +2,17 @@ import board
 import digitalio
 from kmk import KMKKeyboard
 from kmk.keys import KC
+from kmk.scanners.keypad import KeysScanner
+from kmk.modules.macros import Press, Release, Tap, Macros
 from kmk.modules import Layer
 
 
 keyboard = KMKKeyboard()
+macros = Macros()
+keyboard.modules.append(macros)
 
-
+keyboard.pins_col = [board.GPIO2, board.GPIO4, board.GPIO03]
+keyboard.pins_row = [board.GPIO6, board.GPIO7, board.GPIO0]
 switch1 = digitalio.DigitalInOut(board.D5)
 switch1.switch_to_input(pull=digitalio.Pull.UP)
 
