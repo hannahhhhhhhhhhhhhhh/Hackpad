@@ -1,4 +1,6 @@
 # Epic thing
+<img width="1781" height="1084" alt="image" src="https://github.com/user-attachments/assets/16dd60b1-0516-44ac-af7f-43c41c5559b2" />
+
 A hackpad for hack club
 # Why I made this
   I have never made any hardware stuff, and making a tiny keyboard is so cool. I really wanted to do this and design something on my own.
