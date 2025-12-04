@@ -17,3 +17,10 @@ I tried to make it look nice
 ### Case
 <img width="2622" height="1286" alt="image" src="https://github.com/user-attachments/assets/3b805cef-3fdd-4386-bd42-fa5d9f99d8bf" />
 
+### Specifications
+BOM:
+1x IAO RP2040 DIP
+4x Button_Switch_Keyboard: SW_Cherry_MX
+2x SK6812MINI
+
+
