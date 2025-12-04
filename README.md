@@ -14,4 +14,6 @@ Getting used to Fusion360 was a pain, especially with my laptop constantly freez
 I tried to make it look nice
 <img width="1286" height="1593" alt="image" src="https://github.com/user-attachments/assets/6658060c-9859-4fa3-9772-1fde97660a52" />
 
+### Case
+<img width="2622" height="1286" alt="image" src="https://github.com/user-attachments/assets/3b805cef-3fdd-4386-bd42-fa5d9f99d8bf" />
 
