@@ -5,12 +5,21 @@ from kmk.keys import KC
 from kmk.scanners.keypad import KeysScanner
 from kmk.modules.macros import Press, Release, Tap, Macros
 from kmk.modules import Layer
-
+from kmk.extensions.RGB import RGB, AnimationModes
+from kmk.extensions.Display import Display, TextEntry, DISPLAY_OLED
+import adafruit_ssd1306 
 
 keyboard = KMKKeyboard()
 macros = Macros()
 keyboard.modules.append(macros)
+display = Display(
+    display_type=DISPLAY_OLED, 
+    i2c_address=0x3C,
+    i2c_bus=1, 
+    flip=True,
+)
 
+kbd = Keyboard(usb_hid.devices)
 keyboard.pins_col = [board.GPIO2, board.GPIO4, board.GPIO03]
 keyboard.pins_row = [board.GPIO6, board.GPIO7, board.GPIO0]
 switch1 = digitalio.DigitalInOut(board.D5)
