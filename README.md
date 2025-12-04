@@ -21,10 +21,14 @@ I tried to make it look nice
 
 ### Specifications
 BOM:
-1x IAO RP2040 DIP
+1x XIAO RP2040 DIP
 
 4x Button_Switch_Keyboard: SW_Cherry_MX
 
 2x SK6812MINI
 
 
+Others:
+KMK firmware
+
+Case.stl
